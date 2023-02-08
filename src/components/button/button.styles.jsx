@@ -48,7 +48,7 @@ export const InvertedButton = styled(BaseButton)`
   }
 `;
 
-export const SpinnerButton = styled.div`
+export const LoadingSpinner = styled.div`
   display: inline-block;
   width: 30px;
   height: 30px;
