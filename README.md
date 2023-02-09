@@ -9,13 +9,13 @@
 <h1 align="center">Crwn Clothing</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/crwn-clothing?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/waldo2810/crwn-clothing?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/crwn-clothing?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/waldo2810/crwn-clothing?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/crwn-clothing?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/waldo2810/crwn-clothing?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/crwn-clothing?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/waldo2810/crwn-clothing?color=56BEB8">
 </p>
 
 <!-- Status -->
@@ -33,7 +33,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/waldo2810" target="_blank">Author</a>
 </p>
 
 <br>
@@ -60,7 +60,7 @@ The following tools were used in this project:
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/crwn-clothing
+$ git clone https://github.com/waldo2810/crwn-clothing
 
 # Access
 $ cd crwn-clothing
@@ -79,7 +79,7 @@ $ npm start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">wasb</a>
+Made with :heart: by <a href="https://github.com/waldo2810" target="_blank">wasb</a>
 
 &#xa0;
 
