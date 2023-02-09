@@ -44,9 +44,9 @@ This is an E-Commerce project where I used front-end technologies such as React-
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Authentication;\
-:heavy_check_mark: Data Persistance;\
-:heavy_check_mark: RealLife Stack used;
+:heavy_check_mark: Authentication\
+:heavy_check_mark: Data Persistance\
+:heavy_check_mark: GraphQL
 
 ## :rocket: Technologies ##
 
@@ -55,6 +55,7 @@ The following tools were used in this project:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Firebase](https://firebase.google.com/)
+- [GraphQL](https://graphql.org/)
 
 ## :checkered_flag: Starting ##
 

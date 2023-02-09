@@ -15,7 +15,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(checkUserSession());
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <Routes>
