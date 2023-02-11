@@ -55,7 +55,7 @@ The following tools were used in this project:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Firebase](https://firebase.google.com/)
-- [GraphQL](https://graphql.org/)
+- [Redux](https://redux.js.org/)
 
 ## :checkered_flag: Starting ##
 
@@ -74,10 +74,6 @@ $ npm start
 
 # The server will initialize in the <http://localhost:3000>
 ```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
 Made with :heart: by <a href="https://github.com/waldo2810" target="_blank">wasb</a>
