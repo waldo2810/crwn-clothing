@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CheckoutItemContainer = styled.div`
   width: 100%;
@@ -15,13 +15,14 @@ export const ImageContainer = styled.div`
   padding-right: 15px;
 
   img {
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
 `;
 
 export const BaseSpan = styled.span`
   width: 23%;
+  font-size: 1rem;
 `;
 
 export const Quantity = styled(BaseSpan)`

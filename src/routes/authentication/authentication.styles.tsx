@@ -1,8 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AuthenticationContainer = styled.div`
   display: flex;
-  width: 900px;
-  justify-content: space-between;
-  margin: 30px auto;
+  gap: 5rem;
+  justify-content: center;
+  @media (max-width: 900px) {
+    max-width: 90%;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+  }
 `;

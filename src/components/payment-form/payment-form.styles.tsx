@@ -1,18 +1,20 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import Button from '../button/button.component';
+import Button from "../button/button.component";
 
 export const PaymentFormContainer = styled.div`
-  height: 300px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 `;
 
 export const FormContainer = styled.form`
+  width: 100%;
   height: 100px;
-  min-width: 500px;
+  width: 100%;
 `;
 
 export const PaymentButton = styled(Button)`

@@ -1,11 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export const CategoryPreviewContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 `;
 
 export const Title = styled(Link)`
@@ -16,6 +14,18 @@ export const Title = styled(Link)`
 
 export const Preview = styled.div`
   display: grid;
+  column-gap: 0.5rem;
+  row-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 550px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 450px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
