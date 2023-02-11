@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProductCartContainer = styled.div`
   width: 100%;
@@ -7,6 +7,7 @@ export const ProductCartContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+  padding-bottom: 1rem;
 
   img {
     width: 100%;

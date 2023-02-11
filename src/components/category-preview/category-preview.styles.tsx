@@ -29,3 +29,16 @@ export const Preview = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
 `;
+
+export const CategoryHeader = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`;
+
+export const SeeMore = styled.span`
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+`;
