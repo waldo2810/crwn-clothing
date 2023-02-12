@@ -6,6 +6,7 @@ export const NavigationContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 25px;
 `;
 
@@ -25,6 +26,7 @@ export const NavLinks = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  padding: 10px;
+  font-size: 1rem;
+  padding: 5px;
   cursor: pointer;
 `;

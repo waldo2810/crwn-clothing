@@ -28,23 +28,23 @@ const Navigation = () => {
   return (
     <Fragment>
       <NavigationContainer>
-        <LogoContainer to='/'>
-          <CrwnLogo className='logo' />
+        <LogoContainer to="/">
+          <CrwnLogo className="logo" />
         </LogoContainer>
         <NavLinks>
           {currentUser && (
-            <span style={{ padding: "10px 15px" }}>
+            <span style={{ padding: "5px" }}>
               {currentUser.displayName.toUpperCase()}
             </span>
           )}
-          <NavLink to='/shop'>SHOP</NavLink>
+          <NavLink to="/shop">SHOP</NavLink>
 
           {currentUser ? (
-            <NavLink as='span' onClick={userSignOut}>
+            <NavLink as="span" onClick={userSignOut}>
               SIGN OUT
             </NavLink>
           ) : (
-            <NavLink to='/auth'>SIGN IN</NavLink>
+            <NavLink to="/auth">SIGN IN</NavLink>
           )}
           <CartIcon />
         </NavLinks>
